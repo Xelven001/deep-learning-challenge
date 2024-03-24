@@ -14,21 +14,16 @@ The purpose of this analysis is to develop a binary classifier using neural netw
 
 ### Compiling, Training, and Evaluating the Model:
 
-#### Neurons, Layers, and Activation Functions: For the neural network model, we selected the following architecture:
+####  For the neural network model, I selected the following architecture:
 
 ##### First hidden layer: 80 neurons with ReLU activation function.
-Second hidden layer: 30 neurons with ReLU activation function.
-Output layer: 1 neuron with sigmoid activation function.
-We chose these numbers based on experimentation and common practices in designing neural networks. ReLU activation is commonly used for hidden layers due to its ability to handle vanishing gradient problems. Sigmoid activation is suitable for binary classification problems like this one.
+##### Second hidden layer: 30 neurons with ReLU activation function.
+##### Output layer: 1 neuron with sigmoid activation function.
+I chose these numbers based on experimentation and common practices in designing neural networks.
 
-Achievement of Target Model Performance: The target model performance was evaluated based on accuracy and loss metrics during training. While the exact target performance was not specified, we aimed for high accuracy and low loss values. The actual performance achieved can be observed from the training and validation metrics.
+#### Achievement of Target Model Performance: The target model performance was evaluated based on accuracy and loss metrics during training. Model ran and achieved desired scores.
 
-Steps to Increase Model Performance: To increase model performance, we conducted several steps, including:
 
-Data preprocessing: Handling missing values, encoding categorical variables, and scaling numerical features.
-Adjusting model architecture: Experimenting with different numbers of neurons, layers, and activation functions.
-Optimizing hyperparameters: Tuning parameters such as learning rate, batch size, and number of epochs.
-Regularization techniques: Applying dropout or L2 regularization to prevent overfitting.
-Summary:
+#### Summary:
 
-In summary, the deep learning model developed achieved satisfactory performance based on the evaluation metrics. However, there may be room for further optimization to enhance performance. Considering the goal of helping Alphabet Soup select applicants with the best chance of success, the model can serve as a valuable tool in the decision-making process. Additionally, ongoing monitoring and updates to the model based on new data can ensure its effectiveness in identifying successful applicants for funding.
+In summary, the deep learning model developed achieved satisfactory performance based on the evaluation metrics. However, there may be room for further optimization to enhance performance. Considering the goal of helping Alphabet Soup select applicants with the best chance of success, the model can serve as a valuable tool in the decision-making process.
