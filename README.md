@@ -6,17 +6,17 @@ The purpose of this analysis is to develop a binary classifier using neural netw
 
 ### Data Preprocessing:
 
-Target Variable: The target variable for our model is the IS_SUCCESSFUL column, indicating whether an applicant was successful if funded.
+#### Target Variable: The target variable for our model is the IS_SUCCESSFUL column, indicating whether an applicant was successful if funded.
 
-Features: All columns except for the target variable (IS_SUCCESSFUL) are considered features for our model.
+#### Features: All columns except for the target variable (IS_SUCCESSFUL) are considered features for our model.
 
-Variables to be Removed: The variables 'EIN' and 'NAME' were removed from the input data as they are neither targets nor features.
+#### Variables to be Removed: The variables 'EIN' and 'NAME' were removed from the input data as they are neither targets nor features.
 
-Compiling, Training, and Evaluating the Model:
+### Compiling, Training, and Evaluating the Model:
 
-Neurons, Layers, and Activation Functions: For the neural network model, we selected the following architecture:
+#### Neurons, Layers, and Activation Functions: For the neural network model, we selected the following architecture:
 
-First hidden layer: 80 neurons with ReLU activation function.
+##### First hidden layer: 80 neurons with ReLU activation function.
 Second hidden layer: 30 neurons with ReLU activation function.
 Output layer: 1 neuron with sigmoid activation function.
 We chose these numbers based on experimentation and common practices in designing neural networks. ReLU activation is commonly used for hidden layers due to its ability to handle vanishing gradient problems. Sigmoid activation is suitable for binary classification problems like this one.
