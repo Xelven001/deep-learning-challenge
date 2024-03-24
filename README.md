@@ -21,7 +21,8 @@ The purpose of this analysis is to develop a binary classifier using neural netw
 ##### Output layer: 1 neuron with sigmoid activation function.
 I chose these numbers based on experimentation and common practices in designing neural networks.
 
-#### Achievement of Target Model Performance: The target model performance was evaluated based on accuracy and loss metrics during training. Model ran and achieved desired scores.
+#### Achievement of Target Model Performance:
+The target model performance was evaluated based on accuracy and loss metrics during training. Model ran and achieved desired scores.
 
 
 #### Summary:
