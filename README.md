@@ -1,10 +1,10 @@
 # deep-learning-challenge
 Overview of the Analysis:
-The purpose of this analysis is to develop a binary classifier using neural networks to predict whether applicants will be successful if funded by Alphabet Soup. The dataset contains metadata about more than 34,000 organizations that have received funding from Alphabet Soup. By training a neural network on this data, we aim to create a model that can accurately classify applicants as either successful or unsuccessful, helping Alphabet Soup select the applicants with the best chance of success for funding.
+The purpose of this analysis is to develop a binary classifier using neural networks to predict whether applicants will be successful if funded by Alphabet Soup. By training a neural network on this data, we aim to create a model that can accurately classify applicants as either successful or unsuccessful, helping Alphabet Soup select the applicants with the best chance of success for funding.
 
-Results:
+##Results:
 
-Data Preprocessing:
+###Data Preprocessing:
 
 Target Variable: The target variable for our model is the IS_SUCCESSFUL column, indicating whether an applicant was successful if funded.
 
